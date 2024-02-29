@@ -20,11 +20,11 @@
     font-size: 61px;
   }
 
-  .pricing-header .nav-item li:nth-child(2) a:after {
+  .pricing__header .nav__item li:nth-child(2) a:after {
     width: 0%;
   }
 
-  .courses-header .nav-item li:nth-child(1) a:after {
+  .courses__header .nav__item li:nth-child(1) a:after {
     width: 0%;
   }
 }
@@ -34,16 +34,16 @@
 /* --------------- */
 
 @media screen and (max-width: 991px) {
-  .quotes .carousel-item img {
+  .quotes .carousel__item img {
     margin-left: 80px;
   }
-  .quote-text {
+  .quote__text-area {
     padding-left: 43px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .quotes .carousel-item img {
+  .quotes .carousel__item img {
     margin-left: 40px;
   }
 }
@@ -56,25 +56,25 @@
   .quotes {
     height: auto;
   }
-  .quotes .carousel-item img {
+  .quotes .carousel__item img {
     margin: 90px auto 0 auto;
     padding-bottom: 10px;
   }
-  .quotes .carousel-item .quote-text {
+  .quotes .carousel__item .quote__text-area {
     padding-bottom: 103px;
   }
 
-  .quotes .carousel-control-prev.arrow-left {
+  .quotes .carousel--prev.arrow--left {
     bottom: var(--arrow-move-y);
     left: var(--arrow-move-x);
   }
 
-  .quotes .carousel-control-next.arrow-right {
+  .quotes .carousel--next.arrow--right {
     bottom: var(--arrow-move-y);
     right: var(--arrow-move-x);
   }
 
-  .quote-text {
+  .quote__text-area {
     padding: 0px;
     padding-top: 24px;
   }
@@ -97,10 +97,10 @@
   :root {
     --popular-arrows-x: -3vw;
   }
-  .section .card-img-overlay {
+  .section .card__img--overlay {
     top: 4%;
   }
-  .section .card-img-overlay img {
+  .section .card__img--overlay img {
     width: 35%;
   }
 }
@@ -113,10 +113,10 @@
   .section .card {
     width: 16rem;
   }
-  .section .card-img-overlay img {
+  .section .card__img--overlay img {
     width: 30%;
   }
-  .section .card-img-overlay {
+  .section .card__img--overlay {
     top: 5%;
   }
 }
@@ -134,10 +134,10 @@
   :root {
     --popular-arrows-x: -15px;
   }
-  .section .card-img-overlay img {
+  .section .card__img--overlay img {
     width: 30%;
   }
-  .section .card-img-overlay {
+  .section .card__img--overlay {
     top: 5%;
   }
 }
@@ -227,13 +227,13 @@
 /* ----------------- */
 
 @media screen and (max-width: 575px) {
-  .pricing-header h1 {
+  .pricing__header h1 {
     font-size: 24px;
   }
-  .pricing-header .hero .smile-fig {
+  .pricing__header .hero .smile-fig {
     max-width: 30px;
   }
-  .pricing-header .title-fig {
+  .pricing__header .title-fig {
     width: 150px;
   }
 }
@@ -243,32 +243,32 @@
 /* ------------- */
 
 @media screen and (min-width: 576px) {
-  .prices-grid .table .prices-col-3 {
+  .price--grids .table .prices-col-3 {
     padding-left: 30px;
   }
 }
 
 @media screen and (max-width: 575px) {
-  .prices-grid .row {
+  .price--grids .row {
     margin-bottom: 51px;
   }
 
-  .prices-grid .table {
+  .price--grids .table {
     table-layout: initial;
   }
-  .prices-grid .pricing-table-title-1,
-  .prices-grid .pricing-table-title-2 {
+  .price--grids .pricing-table-title-1,
+  .price--grids .pricing-table-title-2 {
     font-size: 12px;
     padding-bottom: 30px;
     padding: 0;
   }
-  .prices-grid .prices-col-1 {
+  .price--grids .prices-col-1 {
     padding-right: 30px;
   }
-  .prices-grid .prices-col-2 {
+  .price--grids .prices-col-2 {
     padding-right: 50px;
   }
-  .prices-grid .pricing-table-title-1 {
+  .price--grids .pricing-table-title-1 {
     padding-right: 36px;
   }
 }
@@ -285,20 +285,20 @@
 }
 
 @media screen and (max-width: 575px) {
-  .faq .section-body .col1,
-  .faq .section-body .col2 {
+  .faq .section__body .col1,
+  .faq .section__body .col2 {
     padding: 0 4vw;
   }
 
-  .faq .section-body .row1 {
+  .faq .section__body .row1 {
     padding-bottom: 146px;
   }
 
-  .faq .section-body .col2 {
+  .faq .section__body .col2 {
     padding-top: 146px;
   }
 
-  .faq .section-body {
+  .faq .section__body {
     margin-bottom: 108px;
   }
 }
@@ -312,7 +312,7 @@
 /* ----------------- */
 
 @media screen and (max-width: 1000px) {
-  .courses-header {
+  .courses__header {
     background-position-y: -100px;
     background-position-y: 0;
     background-size: initial;
@@ -339,7 +339,7 @@
 /* ----------------- */
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
-  .results .card-img-overlay {
+  .results .card__img--overlay {
     top: 1vh;
   }
   .results .rating img {
@@ -353,7 +353,7 @@
 }
 
 @media screen and (max-width: 575px) {
-  .results .card-img-overlay {
+  .results .card__img--overlay {
     top: 5vh;
   }
 
