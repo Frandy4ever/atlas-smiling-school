@@ -1,0 +1,17 @@
+:root {
+	--check-color: #82d24f;
+	--darkblue-color: #071629;
+	--faq-pad-inner: 8vw;
+	--faq-pad-outer: 7vw;
+	--line-height: 2px;
+	--opacity: 0.9;
+	--paragraph-margin: 20px;
+	--popular-arrows-x: -6vw;
+	--primary-color: #c271ff;
+	--primary-fonts: "Source Sans Pro", sans-serif;
+	--pros-padding: 62px;
+	--quotes-arrows-pad: 300px;
+	--secondary-fonts: "Spin Cycle OT", sans-serif;
+	--tertiary-fonts: Coiny, sans-serif;
+	--white-color: #ffffff;
+}
